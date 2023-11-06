@@ -1,0 +1,128 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    max-width: 1440px;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--neutral-cream);
+}
+
+.page .component{
+    width: 40%;
+}
+
+.page .component .balance{
+    border-radius: 20px;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-soft-red);
+    margin-bottom: 1rem;
+}
+
+.page .component .balance h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.page .component .balance .my-balance #value-balance{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.page .component .datas{
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.page .component .datas h1{
+    color: var(--neutral-dark-brown);
+}
+
+.page .component .datas .staticks{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.page .component .datas .staticks .mon, .page .component .datas .staticks .tue, .page .component .datas .staticks .wed, .page .component .datas .staticks .thu, .page .component .datas .staticks .fri, .page .component .datas .staticks .sat, .page .component .datas .staticks .sun{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page .component .datas .statick{
+    height: 150px;
+    width: 5vw;
+    position: relative;
+}
+
+.page .component .datas .staticks span{
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--primary-soft-red);
+}
+
+.page .component .datas .staticks span:hover{
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    opacity: .6;
+}
+
+.page .component .datas .staticks .item-datas{
+    position: absolute;
+    bottom: 0%;
+}
+
+.page .component .datas .staticks #wed{
+    background-color: var(--primary-cyan);
+}
+
+.page .component .datas .staticks h3{
+    color: var(--neutral-medium-brown);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.page .component .datas .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--neutral-cream);
+}
+
+.page .component .datas .total .total-month h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--neutral-medium-brown);
+}
+
+.page .component .datas .total .total-month #total{
+    color: var(--neutral-dark-brown);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.page .component .datas .total .percentage #percentage{
+    color: var(--neutral-dark-brown);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.page .component .datas .total .percentage h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--neutral-medium-brown);
+}

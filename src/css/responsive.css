@@ -1,0 +1,18 @@
+@media(max-width: 950px){
+    .page .component{
+        width: 80%;
+    }
+
+    .page .component .datas .statick{
+        width: 10vw;
+    }
+}
+
+@media(max-width: 500px){
+    .page .component{
+        width: 90%;
+    }
+
+    
+    
+}

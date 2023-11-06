@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Chat Component</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="page">
+        <div class="component">
+            <div class="balance">
+                <div class="my-balance">
+                    <h2>My balance</h2>
+                    <span id="value-balance"></span>
+                </div>
+                <img src="src/images/logo.svg" alt="Logo">
+            </div>
+            <div class="datas">
+                <h1>Spending - Last 7 days</h1>
+                <div class="staticks">
+                    <div class="mon">
+                        <div class="statick-mon statick">
+                            <span id="mon" class="item-datas"></span>
+                        </div>
+                        <h3>mon</h3>
+                    </div>
+                    <div class="tue">
+                        <div class="statick-tue statick">
+                            <span id="tue" class="item-datas"></span>
+                        </div>
+                        <h3>tue</h3>
+                    </div>
+                    <div class="wed">
+                        <div class="statick-wed statick">
+                            <span id="wed" class="item-datas"></span>
+                        </div>
+                        <h3>wed</h3>
+                    </div>
+                    <div class="thu">
+                        <div class="statick-thu statick">
+                            <span id="thu" class="item-datas"></span>
+                        </div>
+                        <h3>thu</h3>
+                    </div>
+                    <div class="fri">
+                        <div class="statick-fri statick">
+                            <span id="fri" class="item-datas"></span>
+                        </div>
+                        <h3>fri</h3>
+                    </div>
+                    <div class="sat">
+                        <div class="statick-sat statick">
+                            <span id="sat" class="item-datas"></span>
+                        </div>
+                        <h3>sat</h3>
+                    </div>
+                    <div class="sun">
+                        <div class="statick-sun statick">
+                            <span id="sun" class="item-datas"></span>
+                        </div>
+                        <h3>sun</h3>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="total-month">
+                        <h3>Total this month</h3>
+                        <span id="total"></span>
+                    </div>
+                    <div class="percentage">
+                        <span id="percentage"></span>
+                        <h3>from last month</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
