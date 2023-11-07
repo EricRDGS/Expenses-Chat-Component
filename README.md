@@ -1,6 +1,6 @@
 # Frontend Mentor - Expenses Chat Component
 
-This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Expenses Chat Component Main challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## 📋 Table of contents
 
@@ -18,13 +18,14 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## 🗺️ Overview
 
-The challenge is a simple landing page with a logo, background image, image in the content, texts and social media icons. But for me it's a bit complex, because there are a lot of things that I'm evolving, like the flex display and the grid.
+weekly value statistics page, where you have my balance, total value for the month and percentage in the last month.
 
 ### 📝The challenge
 
 Users should be able to:
 
-- Display flex e display grid;
+- Flexbox;
+- JavaScript
 - Responsiveness.
 
 ### Screenshot
@@ -40,31 +41,34 @@ Users should be able to:
 
 ### 🔗 Links
 
-- Live Site URL: [Access Website](https://ericrdgs.github.io/Project-Landing-Page-Quest-001/)
+- Live Site URL: [Access Website](https://ericrdgs.github.io/Expenses-Chat-Component/)
 
 ## 📊 My process
+
+I started with the HTML document, creating the page (main), then inserting the divisions, my balance with titles and empty span and staticks with empty span and titles, lower down I defined a border to make the separation, after the separation there are more empty spans and titles.
 
 ### 🏗️ Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- JavaScript
+- Responsivess
 
 
 ### 📖What I learned
 
-In this challenge you can understand more about the flex display, the display grid and also the responsiveness.
+I learned how to better use forEach and for, as well as indexes.
 
 ### 🐱‍💻 Continued development
 
-I want to continue learning about flex display and responsiveness
+I want to continue evolving the loops.
 
 
 ## 🤓 Author
 
 - Website - [Github](https://www.your-site.com)
-- Frontend Mentor - [@EricRDGS](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@EricRDGS](https://www.frontendmentor.io/profile/EricRDGS)
 
 
 ## 👍 Acknowledgments
