@@ -57,23 +57,45 @@ body{
 .page .component .datas .staticks .mon, .page .component .datas .staticks .tue, .page .component .datas .staticks .wed, .page .component .datas .staticks .thu, .page .component .datas .staticks .fri, .page .component .datas .staticks .sat, .page .component .datas .staticks .sun{
     display: flex;
     align-items: center;
+    position: relative;
     flex-direction: column;
+}
+
+.page .component .datas .data-statick{
+    background-color: var(--neutral-dark-brown);
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 2px 6px;
+    position: absolute;
+}
+
+.page .component .datas .data-statick.to-hold{
+    display: none;
+}
+
+.page .component .datas .data-statick.show{
+    display: block;
 }
 
 .page .component .datas .statick{
     height: 150px;
     width: 5vw;
+    display: flex;
+    justify-content: center;
     position: relative;
 }
 
-.page .component .datas .staticks span{
+.page .component .datas .staticks .item-datas{
     display: inline-block;
-    width: 100%;
+    width: 80%;
     border-radius: 5px;
     background-color: var(--primary-soft-red);
 }
 
-.page .component .datas .staticks span:hover{
+.page .component .datas .staticks .item-datas:hover{
     transition: .4s ease-in-out;
     cursor: pointer;
     opacity: .6;

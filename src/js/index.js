@@ -6,14 +6,20 @@ let myBalance = document.getElementById("value-balance");
 let total = document.getElementById("total");
 let percentage = document.getElementById("percentage");
 let items = document.querySelectorAll(".item-datas");
+let values = document.querySelectorAll(".data-statick");
 
 myBalance.innerHTML = '$' + balance;
 total.innerHTML = '$' + totalMonth;
 percentage.innerHTML = '+' + media + '%';
 
-
-items[0].style.height = datas[0] + 'px';
-
 items.forEach((item, index) => {
-    items[index].style.height = datas[index] + 'px';
+    items[index].style.height = datas[index] + '%';
+    values[index].innerHTML = '$' + datas[index];
+    values[index].style.bottom = datas[index] + 10 + '%';
 });
+
+for(let item = 0; item < items.length; item++){
+    items[item].addEventListener("click", () => {
+        values[item].classList.toggle("show")
+    });
+};
